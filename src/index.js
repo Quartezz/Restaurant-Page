@@ -1,3 +1,3 @@
-import createWebsite from "./mainpage"
+import createWebsite from "./mainpage";
 
 createWebsite();
