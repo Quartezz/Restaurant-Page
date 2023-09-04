@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     padding: 0;
     margin: 0;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .content {
@@ -43,6 +44,29 @@ header h1 {
     padding: 4rem;
     font-size: 2rem;
     margin: 6rem auto;
+    color: white;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1.5s;
+    height: 500px;
+    width: 620px;
+}
+
+.center p {
+}
+
+.center img {
+    width: 325px;
+    height: 325px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    opacity: 90%;
+    border-radius: 50%;
 }
 
 img {
@@ -51,11 +75,10 @@ img {
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
