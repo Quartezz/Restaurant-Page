@@ -23,7 +23,7 @@ header {
     justify-content: center;
     width: 100%;
     padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
     border-bottom: 1px solid gray;
 }
 
@@ -38,7 +38,7 @@ header h1 {
 }
 
 .main {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
     border: 1px solid gray;
     max-width: 700px;
     padding: 4rem;
@@ -79,6 +79,6 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
 }
