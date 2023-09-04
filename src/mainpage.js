@@ -98,6 +98,9 @@ function createWebsite() {
     content.appendChild(createHeader());
     content.appendChild(createMain());
     content.appendChild(createFooter());
+
+    setActiveButton(document.querySelector(".button-nav"));
+    loadHome();
 }
 
 
