@@ -50,10 +50,54 @@ function createNav() {
     return nav;
 }
 
+function setActiveButton() {
+    const buttons = document.querySelectorAll(".button-nav");
+
+    buttons.forEach((button) => {
+        if (button !== this) {
+            button.classList.remove("active");
+        }
+    });
+
+    button.classList.add("active");
+}
+
+function createMain() {
+    const main = document.createElement("main");
+    main.classList.add("main");
+    main.setAttribute("id", "main");
+    return main;
+}
+
+function createFooter() {
+    const footer = document.createElement("footer");
+    footer.classList.add("footer");
+
+    const copyright = document.createElement("p");
+    copyright.textContent = `Copyright © ${new Date().getFullYear()} kamilmachel`;
+
+    const githubLink = document.createElement("a");
+    githubLink.href = "https://github.com/Quartezz"
+
+    const githubIcon = document.createElement("i");
+    githubIcon.classList.add("fab");
+    githubIcon.classList.add("fa-github");
+
+    githubLink.appendChild(githubIcon);
+    footer.appendChild(copyright);
+    footer.appendChild(githubLink);
+
+    return footer;
+}
+
+
+
 function createWebsite() {
     const content = document.getElementById("content");
 
     content.appendChild(createHeader());
+    content.appendChild(createMain());
+    content.appendChild(createFooter());
 }
 
 
