@@ -1,1 +1,3 @@
-console.log("Hello world!")
+import createWebsite from "./mainpage"
+
+createWebsite();
