@@ -2,23 +2,52 @@
 body {
     background-image: url(../Images/bg.jpg);
     background-size: cover;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
 header {
-    padding: 20px;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid gray;
 }
 
 header h1 {
     color: white;
     text-align: center;
+    font-size: 2.4rem;
 }
 
-main {
-    width: 500px;
-    height: 500px;
+.title {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid gray;
+    max-width: 700px;
+    padding: 4rem;
+    font-size: 2rem;
+    margin: 6rem auto;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 footer {
