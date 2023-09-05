@@ -1,3 +1,6 @@
+html {
+    font-size: 45%;
+}
 
 body {
     background-image: url(../Images/burger_blog.jpg);
@@ -35,6 +38,7 @@ header h1 {
 
 .title {
     font-family: 'Berkshire Swash', cursive;
+    font-size: 8rem;
 }
 
 .main {
@@ -59,7 +63,7 @@ header h1 {
 
 .center p {
     font-weight: 200;
-    font-size: 1.8rem;
+    font-size: 3.5rem;
 }
 
 .center img {
@@ -83,10 +87,12 @@ footer {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    font-size: 2rem;
+    gap: 1rem;
 }
 
 button {
-    color: inherit;
+    color: white;
     cursor: pointer;
     outline: none;
     font-family: inherit;
@@ -96,12 +102,12 @@ button {
 .button-nav {
     transition: transform 0.3s;
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: transparent;
     border-bottom: 2px solid transparent;
 }
 
-.button-nav:active {
+.button-nav.active {
     border-bottom: 2px solid white;
 }
 
@@ -126,7 +132,6 @@ button {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
     transition: background-color 0.3s;
-    font-size: 45%;
 }
 
 .menu-item:hover {
@@ -142,7 +147,7 @@ button {
 }
 
 .menu-item p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -156,12 +161,12 @@ button {
 
 .contact p {
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .contact img {
     max-height: 420px;
-    padding: 1rem;
+    padding: 0.5rem;
     opacity: 90%;
 }
 
@@ -173,4 +178,9 @@ button {
     100% {
         opacity: 1;
     }
+}
+
+.fa-github {
+    color: white;
+    font-size: 3rem;
 }
