@@ -3,7 +3,7 @@ function createMenuItem(name, description) {
     menuItem.classList.add("menu-item");
 
     const foodImage = document.createElement("img");
-    foodImage.src = `../Images/${name.toLowerCase()}.svg`
+    foodImage.src = `Images/${name.toLowerCase()}.svg`
     foodImage.alt = `${name}`;
 
     const foodName = document.createElement("h2");

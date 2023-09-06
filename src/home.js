@@ -3,7 +3,7 @@ function createCenter() {
     center.classList.add("center");
 
     const chefImage = document.createElement("img");
-    chefImage.src = "../Images/chef4.jpg";
+    chefImage.src = "Images/chef4.jpg";
     chefImage.alt = "Chef";
 
     center.appendChild(createParagraph("Since 1952: Savoring the Flavors of America"));
