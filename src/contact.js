@@ -9,7 +9,7 @@ function createContact() {
     address.textContent = "🏠 Hollywood Boulevard 42, Los Angeles, USA";
 
     const restaurantLocation = document.createElement("img");
-    restaurantLocation.src = "Images/Hollywood.jpg";
+    restaurantLocation.src = "./Images/Hollywood.jpg";
     restaurantLocation.alt = "Hollywood";
 
     contact.appendChild(phoneNumber);
