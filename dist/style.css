@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url(../Images/burger_blog.jpg);
+    background-image: url(/Images/burger_blog.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 0;
